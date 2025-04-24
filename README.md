@@ -44,8 +44,8 @@ class  Movie_DB(models.Model):
 
 class Movie_DBAdmin(admin.ModelAdmin): 
     list_display = ('Movie_ID', 'Title', 'Genre', 'Rating', 'Language', 'Release_Date') 
-    ```
 
+```
 ## OUTPUT
 
 ![alt text](1.1.png)
